@@ -14,7 +14,6 @@ Deployed with Vercel at: [https://blackjack-game-black.vercel.app/](https://blac
 - [Project Structure](#project-structure)
 - [Recommended Extensions](#recommended-extensions)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
