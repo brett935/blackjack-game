@@ -1,15 +1,13 @@
-"use client";
-
 import React from 'react';
+import Image from 'next/image';
+import styles from './Card.module.css';
 
 interface CardProps {
-    image: string;
-    value: string;
-    suit: string;
+  image: string;
 }
 
-const Card: React.FC<CardProps> = ({ image, value, suit }) => {
-    return <img src={image} alt={`${value} of ${suit}`} />;
+const Card: React.FC<CardProps> = ({ image }) => {
+  return <Image className={styles.cardImage} src={image} alt="card" width={160} height={240} />;
 };
 
 export default Card;
