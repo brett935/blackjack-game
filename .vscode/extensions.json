@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "rbbit.typescript-hero",
+    "xabikos.javascriptsnippets",
+    "dsznajder.es7-react-js-snippets",
+    "stylelint.vscode-stylelint",
+    "pkief.material-icon-theme",
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "mikestead.dotenv",
+    "emmanuelbeziat.vscode-great-icons",
+    "christian-kohler.path-intellisense",
+    "streetsidesoftware.code-spell-checker",
+    "ms-azuretools.vscode-docker"
+  ]
+}
