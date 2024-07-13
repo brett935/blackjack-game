@@ -1,6 +1,7 @@
 # Blackjack Game
+Deployed with Vercel at: [https://blackjack-game-black.vercel.app/](https://blackjack-game-black.vercel.app/)
+![Deployment Status](https://img.shields.io/website-up-down-green-red/https/blackjack-game-black.vercel.app.svg?label=deployment%20status)
 
-This is a simple Blackjack game implemented using Next.js, TypeScript, and the Deck of Cards API. The game allows you to play multiple hands against the house and includes functionality to shuffle the deck when necessary.
 
 ## Table of Contents
 
