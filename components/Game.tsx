@@ -69,7 +69,6 @@ const Game: React.FC = () => {
 
     return (
         <div className={styles.game}>
-            <h1>Blackjack</h1>
             <div className={styles.section}>
                 <h2>House</h2>
                 <div className={styles.cards}>
