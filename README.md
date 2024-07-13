@@ -1,6 +1,7 @@
 # Blackjack Game
 Deployed with Vercel at: [https://blackjack-game-black.vercel.app/](https://blackjack-game-black.vercel.app/)
 ![Deployment Status](https://img.shields.io/website-up-down-green-red/https/blackjack-game-black.vercel.app.svg?label=deployment%20status)
+![Build Status Deployment](https://img.shields.io/github/deployments/brett935/blackjack-game/production?label=vercel%20deployment)
 
 
 ## Table of Contents
