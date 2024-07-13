@@ -42,6 +42,36 @@ The Blackjack Game project is a web application where you can play Blackjack aga
 - Node.js (v18 or later)
 - npm (v7 or later)
 
+### Node Version Manager (nvm) Instructions
+
+To manage Node.js versions effectively, you can use nvm (Node Version Manager). Follow these steps to install and use nvm:
+
+1. **Install nvm**:
+    ```sh
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+    ```
+
+2. **Load nvm**:
+    ```sh
+    export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+    ```
+
+3. **Install Node.js version 18**:
+    ```sh
+    nvm install 18
+    ```
+
+4. **Use Node.js version 18**:
+    ```sh
+    nvm use 18
+    ```
+
+5. **Set Node.js version 18 as the default**:
+    ```sh
+    nvm alias default 18
+    ```
+
 ### Installation
 
 1. Clone the repository:
