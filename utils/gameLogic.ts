@@ -24,7 +24,6 @@ export const calculatePoints = (cards: any[]): number => {
 export const checkWinner = (playerPoints: number, housePoints: number): string => {
     if (playerPoints > 21) return 'House Wins!';
     if (housePoints > 21) return 'Player Wins!';
-    if (playerPoints === 21) return 'Player Wins!';
     if (playerPoints > housePoints) return 'Player Wins!';
     if (playerPoints < housePoints) return 'House Wins!';
     return 'It\'s a Tie!';

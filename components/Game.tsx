@@ -35,7 +35,7 @@ const Game: React.FC = () => {
         setPlayerPoints(calculatePoints(playerInitialCards.cards));
         setHousePoints(calculatePoints(houseInitialCards.cards));
         setResult(null);
-        setRemainingCards(playerInitialCards.remaining);
+        setRemainingCards(houseInitialCards.remaining);
     };
 
     const handleHit = async () => {
